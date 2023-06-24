@@ -1,0 +1,15 @@
+import rich
+def printCopyrightInformation(yearOfCopyrighgt,version,rich_console):
+    rich_console.print("[blue]       ----------------------------------")
+    rich_console.print("[blue]      /  [green]____   [red]_  __ [blue]_____ [purple]____       [blue]/")
+    rich_console.print("[blue]     /  [green]/ ___| [red]| |/ /[blue]|  ___[purple]|  _  \\    [blue]/")
+    rich_console.print("[blue]    /   [green]\\___ \\ [red]| ' / [blue]| |_  [purple]| |_) |   [blue]/")
+    rich_console.print("[blue]   /     [green]___) |[red]| . \\ [blue]|  _| [purple]|  __/   [blue]/")
+    rich_console.print("[blue]  /     [green]|____/ [red]|_|\\_\\",end="")
+    rich_console.print("[blue]|__|  [purple]|_|     [blue]/")
+    rich_console.print("[blue] /                                /")
+    rich_console.print("[blue]----------------------------------")
+    rich_console.print("[bold]SKFP-Python [/bold]Alpha",end=' ')
+    rich_console.print("Copyright (C)",yearOfCopyrighgt,"Kiki Tan")
+    rich_console.print("SKFP没有任何保证，了解更多请到GitHub页面查看更多.")
+    rich_console.print("这是一个自由软件，欢迎再次分发本程序，但要满足一定条件.")
